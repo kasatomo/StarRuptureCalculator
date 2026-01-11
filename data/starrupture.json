@@ -1,0 +1,501 @@
+{
+  "machines": [
+    { "id": 1, "name": "鉱石掘削機" },
+    { "id": 2, "name": "精錬所" },
+    { "id": 3, "name": "ファブリケーター" },
+    { "id": 4, "name": "ファーネス" },
+    { "id": 5, "name": "メガプレス" },
+    { "id": 6, "name": "リファイナリー" },
+    { "id": 7, "name": "ヘリウム-3エクストラクター" },
+    { "id": 8, "name": "硫黄エクストラクター" },
+    { "id": 9, "name": "アセンブラー" },
+    { "id": 10, "name": "コンパウンダー" }
+  ],
+  "items": [
+    { "id": 1, "name": "タングステン鉱石（不純）" },
+    { "id": 2, "name": "チタン鉱石" },
+    { "id": 3, "name": "チタン鉱石（不純）" },
+    { "id": 4, "name": "タングステン鉱石" },
+    { "id": 5, "name": "タングステンバー" },
+    { "id": 6, "name": "タングステンプレート" },
+    { "id": 7, "name": "タングステンワイヤー" },
+    { "id": 8, "name": "チタンバー" },
+    { "id": 9, "name": "チタンビーム" },
+    { "id": 10, "name": "チタンロッド" },
+    { "id": 11, "name": "カルシウム鉱石（不純）" },
+    { "id": 12, "name": "カルシウム鉱石" },
+    { "id": 13, "name": "カルシウムブロック" },
+    { "id": 14, "name": "方解石シート" },
+    { "id": 15, "name": "チタンシート" },
+    { "id": 16, "name": "ローター" },
+    { "id": 17, "name": "チューブ" },
+    { "id": 18, "name": "スタビライザー" },
+    { "id": 19, "name": "チタンハウジング" },
+    { "id": 20, "name": "ステーター" },
+    { "id": 21, "name": "アプリケーター" },
+    { "id": 22, "name": "ガラス" },
+    { "id": 23, "name": "タングステン粉末" },
+    { "id": 24, "name": "カルシウム粉末" },
+    { "id": 25, "name": "セラミック" },
+    { "id": 26, "name": "ヘリウム-3" },
+    { "id": 27, "name": "インダクター" },
+    { "id": 28, "name": "耐熱シート" },
+    { "id": 29, "name": "合成シリコン" },
+    { "id": 30, "name": "電子部品" },
+    { "id": 31, "name": "化学物質" },
+    { "id": 32, "name": "硬化材" },
+    { "id": 33, "name": "硫黄" },
+    { "id": 34, "name": "超電導磁石" },
+    { "id": 35, "name": "インペラー" },
+    { "id": 36, "name": "ノズル" },
+    { "id": 37, "name": "バッテリー" },
+    { "id": 38, "name": "タービン" },
+    { "id": 39, "name": "バルブ" },
+    { "id": 40, "name": "電磁コイル" },
+    { "id": 41, "name": "加圧ヘリウム" },
+    { "id": 42, "name": "ポンプ" },
+    { "id": 43, "name": "硫黄鉱石" },
+    { "id": 44, "name": "基本建築材料" },
+    { "id": 45, "name": "ピストル弾薬" },
+    { "id": 46, "name": "中程度の建築材料" },
+    { "id": 47, "name": "スタンダード弾薬" },
+    { "id": 48, "name": "重弾薬" },
+    { "id": 49, "name": "蓄圧機" },
+    { "id": 50, "name": "発電機" },
+    { "id": 51, "name": "電磁石" },
+    { "id": 52, "name": "加圧タンク" },
+    { "id": 53, "name": "レゾネーター" },
+    { "id": 54, "name": "蓄電機" },
+    { "id": 55, "name": "レーザーエミッター" },
+    { "id": 56, "name": "スキャナー" },
+    { "id": 57, "name": "合成樹脂" },
+    { "id": 58, "name": "液体ヘリウム" },
+    { "id": 59, "name": "レンズ" },
+    { "id": 60, "name": "ナノファイバー" },
+    { "id": 61, "name": "イオンインジェクター" },
+    { "id": 62, "name": "超伝導体" }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "machineId": 1,
+      "madeItem": { "id": 1, "amount": 2 },
+      "unitTime": 2
+    },
+    {
+      "id": 2,
+      "machineId": 1,
+      "madeItem": { "id": 2, "amount": 4 },
+      "unitTime": 2
+    },
+    {
+      "id": 3,
+      "machineId": 1,
+      "madeItem": { "id": 3, "amount": 2 },
+      "unitTime": 2
+    },
+    {
+      "id": 4,
+      "machineId": 2,
+      "madeItem": { "id": 5, "amount": 2 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 4, "amount": 2 }]
+    },
+    {
+      "id": 5,
+      "machineId": 3,
+      "madeItem": { "id": 6, "amount": 1 },
+      "unitTime": 1,
+      "materials": [{ "itemId": 5, "amount": 1 }]
+    },
+    {
+      "id": 6,
+      "machineId": 3,
+      "madeItem": { "id": 7, "amount": 2 },
+      "unitTime": 4,
+      "materials": [{ "itemId": 5, "amount": 1 }]
+    },
+    {
+      "id": 7,
+      "machineId": 2,
+      "madeItem": { "id": 8, "amount": 2 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 2, "amount": 2 }]
+    },
+    {
+      "id": 8,
+      "machineId": 3,
+      "madeItem": { "id": 9, "amount": 1 },
+      "unitTime": 3,
+      "materials": [{ "itemId": 8, "amount": 1 }]
+    },
+    {
+      "id": 9,
+      "machineId": 3,
+      "madeItem": { "id": 10, "amount": 1 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 8, "amount": 1 }]
+    },
+    {
+      "id": 10,
+      "machineId": 1,
+      "madeItem": { "id": 11, "amount": 2 },
+      "unitTime": 2
+    },
+    {
+      "id": 11,
+      "machineId": 2,
+      "madeItem": { "id": 13, "amount": 2 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 12, "amount": 2 }]
+    },
+    {
+      "id": 12,
+      "machineId": 3,
+      "madeItem": { "id": 14, "amount": 2 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 13, "amount": 1 }]
+    },
+    {
+      "id": 13,
+      "machineId": 3,
+      "madeItem": { "id": 15, "amount": 2 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 8, "amount": 1 }]
+    },
+    {
+      "id": 14,
+      "machineId": 3,
+      "madeItem": { "id": 16, "amount": 1 },
+      "unitTime": 6,
+      "materials": [
+        { "itemId": 10, "amount": 2 },
+        { "itemId": 7, "amount": 2 }
+      ]
+    },
+    {
+      "id": 15,
+      "machineId": 3,
+      "madeItem": { "id": 17, "amount": 2 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 10, "amount": 1 },
+        { "itemId": 15, "amount": 1 }
+      ]
+    },
+    {
+      "id": 16,
+      "machineId": 3,
+      "madeItem": { "id": 18, "amount": 1 },
+      "unitTime": 6,
+      "materials": [
+        { "itemId": 16, "amount": 1 },
+        { "itemId": 10, "amount": 2 }
+      ]
+    },
+    {
+      "id": 17,
+      "machineId": 3,
+      "madeItem": { "id": 20, "amount": 1 },
+      "unitTime": 3,
+      "materials": [
+        { "itemId": 19, "amount": 2 },
+        { "itemId": 7, "amount": 1 }
+      ]
+    },
+    {
+      "id": 18,
+      "machineId": 3,
+      "madeItem": { "id": 21, "amount": 1 },
+      "unitTime": 4,
+      "materials": [
+        { "itemId": 17, "amount": 8 },
+        { "itemId": 22, "amount": 2 }
+      ]
+    },
+    {
+      "id": 19,
+      "machineId": 4,
+      "madeItem": { "id": 23, "amount": 3 },
+      "unitTime": 2,
+      "materials": [{ "itemId": 5, "amount": 1 }]
+    },
+    {
+      "id": 20,
+      "machineId": 4,
+      "madeItem": { "id": 24, "amount": 3 },
+      "unitTime": 3,
+      "materials": [{ "itemId": 13, "amount": 1 }]
+    },
+    {
+      "id": 21,
+      "machineId": 4,
+      "madeItem": { "id": 25, "amount": 2 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 14, "amount": 1 },
+        { "itemId": 23, "amount": 1 }
+      ]
+    },
+    {
+      "id": 22,
+      "machineId": 4,
+      "madeItem": { "id": 19, "amount": 1 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 9, "amount": 1 },
+        { "itemId": 15, "amount": 2 }
+      ]
+    },
+    {
+      "id": 23,
+      "machineId": 4,
+      "madeItem": { "id": 22, "amount": 1 },
+      "unitTime": 3,
+      "materials": [
+        { "itemId": 26, "amount": 1 },
+        { "itemId": 24, "amount": 2 }
+      ]
+    },
+    {
+      "id": 24,
+      "machineId": 4,
+      "madeItem": { "id": 27, "amount": 1 },
+      "unitTime": 3,
+      "materials": [
+        { "itemId": 17, "amount": 2 },
+        { "itemId": 7, "amount": 1 },
+        { "itemId": 25, "amount": 2 }
+      ]
+    },
+    {
+      "id": 25,
+      "machineId": 4,
+      "madeItem": { "id": 28, "amount": 1 },
+      "unitTime": 4,
+      "materials": [
+        { "itemId": 6, "amount": 1 },
+        { "itemId": 15, "amount": 2 },
+        { "itemId": 22, "amount": 1 }
+      ]
+    },
+    {
+      "id": 26,
+      "machineId": 4,
+      "madeItem": { "id": 29, "amount": 2 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 24, "amount": 2 },
+        { "itemId": 26, "amount": 1 },
+        { "itemId": 25, "amount": 2 }
+      ]
+    },
+    {
+      "id": 27,
+      "machineId": 4,
+      "madeItem": { "id": 30, "amount": 1 },
+      "unitTime": 5,
+      "materials": [
+        { "itemId": 29, "amount": 2 },
+        { "itemId": 27, "amount": 1 },
+        { "itemId": 20, "amount": 1 }
+      ]
+    },
+    {
+      "id": 28,
+      "machineId": 4,
+      "madeItem": { "id": 31, "amount": 2 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 29, "amount": 1 },
+        { "itemId": 23, "amount": 3 },
+        { "itemId": 26, "amount": 1 }
+      ]
+    },
+    {
+      "id": 29,
+      "machineId": 4,
+      "madeItem": { "id": 32, "amount": 2 },
+      "unitTime": 4,
+      "materials": [
+        { "itemId": 33, "amount": 5 },
+        { "itemId": 29, "amount": 1 },
+        { "itemId": 21, "amount": 1 }
+      ]
+    },
+    {
+      "id": 30,
+      "machineId": 4,
+      "madeItem": { "id": 34, "amount": 1 },
+      "unitTime": 3,
+      "materials": [
+        { "itemId": 33, "amount": 5 },
+        { "itemId": 6, "amount": 5 },
+        { "itemId": 31, "amount": 2 }
+      ]
+    },
+    {
+      "id": 31,
+      "machineId": 5,
+      "madeItem": { "id": 35, "amount": 1 },
+      "unitTime": 4,
+      "materials": [
+        { "itemId": 10, "amount": 2 },
+        { "itemId": 28, "amount": 2 },
+        { "itemId": 6, "amount": 1 },
+        { "itemId": 18, "amount": 1 }
+      ]
+    },
+    {
+      "id": 32,
+      "machineId": 5,
+      "madeItem": { "id": 36, "amount": 1 },
+      "unitTime": 5,
+      "materials": [
+        { "itemId": 28, "amount": 2 },
+        { "itemId": 26, "amount": 1 },
+        { "itemId": 18, "amount": 2 }
+      ]
+    },
+    {
+      "id": 33,
+      "machineId": 5,
+      "madeItem": { "id": 37, "amount": 1 },
+      "unitTime": 4,
+      "materials": [
+        { "itemId": 27, "amount": 2 },
+        { "itemId": 30, "amount": 2 },
+        { "itemId": 33, "amount": 1 }
+      ]
+    },
+    {
+      "id": 34,
+      "machineId": 5,
+      "madeItem": { "id": 38, "amount": 1 },
+      "unitTime": 6,
+      "materials": [
+        { "itemId": 35, "amount": 1 },
+        { "itemId": 20, "amount": 1 },
+        { "itemId": 16, "amount": 2 },
+        { "itemId": 33, "amount": 2 }
+      ]
+    },
+    {
+      "id": 35,
+      "machineId": 5,
+      "madeItem": { "id": 39, "amount": 1 },
+      "unitTime": 10,
+      "materials": [
+        { "itemId": 19, "amount": 1 },
+        { "itemId": 9, "amount": 3 },
+        { "itemId": 10, "amount": 2 },
+        { "itemId": 36, "amount": 1 }
+      ]
+    },
+    {
+      "id": 36,
+      "machineId": 5,
+      "madeItem": { "id": 40, "amount": 1 },
+      "unitTime": 4,
+      "materials": [
+        { "itemId": 27, "amount": 1 },
+        { "itemId": 41, "amount": 1 },
+        { "itemId": 6, "amount": 6 },
+        { "itemId": 34, "amount": 1 }
+      ]
+    },
+    {
+      "id": 37,
+      "machineId": 5,
+      "madeItem": { "id": 42, "amount": 1 },
+      "unitTime": 10,
+      "materials": [
+        { "itemId": 39, "amount": 1 },
+        { "itemId": 38, "amount": 1 },
+        { "itemId": 35, "amount": 1 },
+        { "itemId": 33, "amount": 3 }
+      ]
+    },
+    {
+      "id": 38,
+      "machineId": 6,
+      "madeItem": { "id": 33, "amount": 1 },
+      "unitTime": 0,
+      "materials": [
+        { "itemId": 43, "amount": 2 },
+        { "itemId": 31, "amount": 1 }
+      ]
+    },
+    {
+      "id": 39,
+      "machineId": 6,
+      "madeItem": { "id": 41, "amount": 1 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 26, "amount": 1 },
+        { "itemId": 43, "amount": 1 }
+      ]
+    },
+    {
+      "id": 40,
+      "machineId": 3,
+      "madeItem": { "id": 44, "amount": 10 },
+      "unitTime": 2,
+      "materials": [
+        { "itemId": 4, "amount": 1 },
+        { "itemId": 2, "amount": 1 }
+      ]
+    },
+    {
+      "id": 41,
+      "machineId": 3,
+      "madeItem": { "id": 45, "amount": 25 },
+      "unitTime": 4,
+      "materials": [{ "itemId": 44, "amount": 14 }]
+    },
+    {
+      "id": 42,
+      "machineId": 5,
+      "madeItem": { "id": 46, "amount": 25 },
+      "unitTime": 6,
+      "materials": [
+        { "itemId": 44, "amount": 40 },
+        { "itemId": 27, "amount": 2 },
+        { "itemId": 22, "amount": 2 },
+        { "itemId": 19, "amount": 2 }
+      ]
+    },
+    {
+      "id": 43,
+      "machineId": 5,
+      "madeItem": { "id": 47, "amount": 20 },
+      "unitTime": 6,
+      "materials": [
+        { "itemId": 44, "amount": 18 },
+        { "itemId": 23, "amount": 4 }
+      ]
+    },
+    {
+      "id": 44,
+      "machineId": 5,
+      "madeItem": { "id": 48, "amount": 15 },
+      "unitTime": 6,
+      "materials": [
+        { "itemId": 44, "amount": 24 },
+        { "itemId": 10, "amount": 6 }
+      ]
+    },
+    {
+      "id": 45,
+      "machineId": 7,
+      "madeItem": { "id": 26, "amount": 8 },
+      "unitTime": 2
+    },
+    {
+      "id": 46,
+      "machineId": 8,
+      "madeItem": { "id": 43, "amount": 8 },
+      "unitTime": 2
+    }
+  ]
+}
